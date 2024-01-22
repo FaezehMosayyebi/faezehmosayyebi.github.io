@@ -10,6 +10,7 @@ a {
   border-bottom: 1px solid #ccc;
 
   &:hover {
+    /* Linkes color */
     color: #f44336;
     text-decoration: none;
     border-bottom-color: currentColor;
@@ -33,8 +34,8 @@ a {
 }
 
 .cv-header__img {
-  width: 72px;
-  height: 72px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
   margin-right: 15px;
   display: none;
@@ -43,8 +44,9 @@ a {
 
 .cv-header__text-container {
   text-align: left;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   display: inline-block;
+  
 }
 
 .cv-header__name {
@@ -72,8 +74,8 @@ a {
 }
 
 .cv-section__title {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 750;
   margin-bottom: 5px;
 
   .fa, .fas {
@@ -97,11 +99,17 @@ a {
 }
 
 .cv-section__role {
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 20px;
+
 }
 
 .cv-section__period {
   color: #ababab;
+  margin-top: -4;
+  font-size: 16px;
+
+
 }
 
 /* sidebar section */
