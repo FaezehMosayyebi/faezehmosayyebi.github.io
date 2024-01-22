@@ -97,7 +97,7 @@ a {
 }
 
 .cv-section__role {
-  font-weight: 600;  
+  font-weight: 600;
 }
 
 .cv-section__period {
@@ -109,7 +109,7 @@ a {
   margin-bottom: 20px;
 }
 
-.cv-sidebar-section__title, {
+.cv-sidebar-section__title {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
