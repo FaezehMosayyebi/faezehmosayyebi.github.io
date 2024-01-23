@@ -53,7 +53,7 @@ a {
 .cv-header__name {
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 .cv-header__name--phonetic {
@@ -65,6 +65,7 @@ a {
   color: #ababab;
   font-size: 18px;
   margin-bottom: 0;
+  margin-top: -20;
 }
 
 /* section (main) */
