@@ -10,7 +10,7 @@ a {
 
   &:hover {
     /* Linkes color */
-    color: #f44336 ;
+    color: #f44336;
     text-decoration: none;
     border-bottom-color: currentColor;
   }
@@ -137,6 +137,10 @@ a {
 .cv-sidebar-section__description {
   font-size: 18px;
   margin-bottom: 0;
+}
+
+.cv-section__wrapper a {
+  text-decoration: underline;
 }
 
 /* media queries */
