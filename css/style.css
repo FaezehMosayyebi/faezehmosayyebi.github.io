@@ -6,11 +6,11 @@ body {
 a {
   color: inherit;
   word-break: break-all;
-  border-bottom: 1px solid #ccc;
+  text-decoration: none;
 
   &:hover {
     /* Linkes color */
-    color: #f44336;
+    color: #f44336 ;
     text-decoration: none;
     border-bottom-color: currentColor;
   }
@@ -31,6 +31,9 @@ a {
 /* header  */
 .cv-header {
   margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .cv-header__img {
@@ -100,6 +103,11 @@ a {
   margin-bottom: 0;
 }
 
+.cv-section__description a {
+
+  text-decoration: underline;
+}
+
 .cv-section__role {
   font-weight: 700;
   font-size: 20px;
@@ -117,6 +125,7 @@ a {
 /* sidebar section */
 .cv-sidebar-section {
   margin-bottom: 20px;
+  margin-right: 105px;
 }
 
 .cv-sidebar-section__title {
